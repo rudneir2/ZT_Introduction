@@ -138,10 +138,10 @@ Based on this Zero Trust approach for Azure Network, this is what you will find 
   
 Now that you got an introduction about Zero Trust approach for some of the most common IT infrastructure components, you may access those detailed documents to see how to implement Zero Trust for:
   
-1. Azure VM - <<LINK TBD>>
-2. Azure Storage - <<LINK TBD>>
-3. Identity through Azure Active Directory - <<LINK TBD>>
-4. Azure Network - <<LINK TBD>>
+1. ZT for Azure VM - **LINK TBD**
+2. ZT for Azure Storage - **LINK TBD**
+3. ZT for Identity through Azure Active Directory - **LINK TBD**
+4. ZT for Azure Network - **LINK TBD**
   
 ## References
 
