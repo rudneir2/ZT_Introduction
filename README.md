@@ -76,7 +76,7 @@ In this scenario, workloads running on those VMs connect on Azure Storage and th
 
 The Azure environment and hosted applications rely on Azure Active Directory as the Identity Provider for authentication and authorization of users. This environment have Azure Active Directory synchronized with on-premises Active Directory Domain Services (ADDS).
 
-To give you an idea of how that environment can be implemented securely with some of the Security services implemented based on Zero Trust approach, this presents a step by step that may be followed (see the workflow through the diagram above):
+To give you an idea of how that environment can be implemented securely with some of the Security services implemented based on **Zero Trust approach**, this presents a step by step that may be followed (see the workflow through the diagram above):
 
 1. configure Azure AD users that will be used in the entire environment, considering those ones that will authenticate to access Azure Portal and access Applications and Storage
 
