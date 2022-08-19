@@ -85,8 +85,7 @@ To give you an idea of how that environment can be implemented securely with som
 3. build all the Azure network VNETs and their subnets
 
 4. configure the NSG (Network Security Group) and ASG (Application Security Group) according to the Security rules for the environment
-
-5.create the VPN gateway on Azure VNET to communicate with on-premises environment
+5. create the VPN gateway on Azure VNET to communicate with on-premises environment
 
 6. Deploy Azure Firewall and the policies (rules) that will be considered
 
