@@ -68,7 +68,7 @@ We will consider a very common customer IT environment as a model to apply the Z
 
 The diagram below shows a hybrid environment with components in the Azure public cloud and on-premises. Users access the Azure environment through the Internet, from their branches, and from their on-premises data center.
 
-![Common Enterprise Architecture](./Images/enterprise-architecture.png)
+![image](https://user-images.githubusercontent.com/97529152/185668544-fafc77b3-3edb-4e00-a336-62eeea2ae185.png)
 
 From a workload perspective, the scenario above contains at Azure environment a three-tier application model running on Virtual Machines with a front-end server, application server, and a database server. Those services are running in an hub-spoken network topology with security implemented through Azure Firewall at Layer 4 and an Application Gateway with WAF (Web Application Firewall) at Layer 7.
 
@@ -76,7 +76,7 @@ In this scenario, workloads running on those VMs connect on Azure Storage and th
 
 The Azure environment and hosted applications rely on Azure Active Directory as the Identity Provider for authentication and authorization of users. This environment have Azure Active Directory synchronized with on-premises Active Directory Domain Services (ADDS).
 
-To give you an idea of how that environment can be implemented securely with some of the Security services implemented based on Zero Trust approach, this below presents a step by step that may be followed:
+To give you an idea of how that environment can be implemented securely with some of the Security services implemented based on Zero Trust approach, this presents a step by step that may be followed (see the workflow through the diagram above):
 
 1. configure Azure AD users that will be used in the entire environment, considering those ones that will authenticate to access Azure Portal and access Applications and Storage
 
